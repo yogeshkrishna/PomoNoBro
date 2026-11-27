@@ -1,0 +1,20 @@
+{
+  "title": "Discrete maths study block",
+  "goal": "Study discrete maths and turn the lecture into revision notes.",
+  "focusTerms": ["discrete maths", "revision notes", "truth tables"],
+  "rules": {
+    "offTaskSeconds": 40,
+    "awaySeconds": 30,
+    "tiredSeconds": 30,
+    "snoozeSeconds": 60
+  },
+  "steps": [
+    { "activity": "Watch a discrete maths lecture on truth tables", "kind": "activity", "seconds": 90 },
+    { "activity": "Write revision notes about the lecture", "kind": "activity", "seconds": 35 },
+    { "activity": "Step away to answer the door", "kind": "away", "seconds": 10 },
+    { "activity": "Start a gaming highlights video", "kind": "activity", "seconds": 20 },
+    { "activity": "Keep watching the gaming highlights", "kind": "activity", "seconds": 25 },
+    { "activity": "Return to the discrete maths lecture", "kind": "activity", "seconds": 35 },
+    { "activity": "Report feeling tired after studying", "kind": "tired", "seconds": 40 }
+  ]
+}

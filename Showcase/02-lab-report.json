@@ -1,0 +1,19 @@
+{
+  "title": "Outline a lab report",
+  "goal": "Summarize the hardness experiment and outline a lab report.",
+  "focusTerms": ["hardness experiment", "lab report", "test readings"],
+  "rules": {
+    "offTaskSeconds": 25,
+    "awaySeconds": 20,
+    "tiredSeconds": 35,
+    "snoozeSeconds": 30
+  },
+  "steps": [
+    { "activity": "Organize the test readings", "kind": "activity", "seconds": 30 },
+    { "activity": "Compare indentation widths in the worksheet", "kind": "activity", "seconds": 26 },
+    { "activity": "Compare indentation widths in the worksheet", "kind": "activity", "seconds": 30 },
+    { "activity": "Grab the notebook", "kind": "away", "seconds": 8 },
+    { "activity": "Outline the lab report findings", "kind": "activity", "seconds": 24 },
+    { "activity": "Report feeling tired after writing", "kind": "tired", "seconds": 40 }
+  ]
+}
